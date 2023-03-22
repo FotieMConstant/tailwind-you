@@ -1,7 +1,10 @@
 <h1><p align="center">Tailwind You</p></h1>
 <p align="center">Tailwindcss and Material You design with the logic covered</p>
 
-A frontend UI Component framework supporting most of the major frontend UI frameworks including React, Vue
+A frontend UI Component framework supporting most of the major frontend UI frameworks including React, Vue. 
+
+Tailwind You includes a variety of HTML, Vue React components, all created with Tailwind CSS classes and following Material You Design principles.
+
 
 Tailwind You is [tailwindcss](https://tailwindcss.com/) based. It gives the full power to styling. Also creating unique styles in tailwind you is unbelievably easy using global **StyleObjects**. Giving full power to modifying the style of the components in any state. Also because its tailwindcss based thus gives out of the box modularity
 
