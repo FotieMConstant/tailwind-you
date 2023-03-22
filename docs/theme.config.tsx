@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/FotieMConstant/tailwind-you/docs',
+  docsRepositoryBase: 'https://github.com/FotieMConstant/tailwind-you/tree/main/docs',
   footer: {
     text: 'Nextra Docs Template',
   },
