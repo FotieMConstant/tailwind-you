@@ -1,16 +1,7 @@
 {
-  "name": "lv-button-test",
-  "private": true,
-  "version": "0.0.0",
-  "main": "./dist/lv-button-test.umd.js",
-  "module": "./dist/lv-button-test.es.js",
-  "exports":{
-    ".":{
-      "import": "./dist/lv-button-test.es.js",
-      "require": "./dist/lv-button-test.umd.js"
-    },
-    "./dist/styles.css": "./dist/styles.css"
-  },
+  "name": "@tailwind-you/vue",
+  "private": false,
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
