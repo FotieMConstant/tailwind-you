@@ -1,5 +1,5 @@
 <h1><p align="center">Tailwind You</p></h1>
-<p align="center">Tailwindcss and Material You design and the logic is covered</p>
+<p align="center">Tailwindcss and Material You design with the logic covered</p>
 
 A frontend UI Component framework supporting most of the major frontend UI frameworks including React, Vue
 
