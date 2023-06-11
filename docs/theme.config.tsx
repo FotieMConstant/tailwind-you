@@ -9,9 +9,17 @@ const config: DocsThemeConfig = {
   chat: {
     link: 'https://discord.com',
   },
+  // banner: {
+  //   key: '1.0-release',
+  //   text: (
+  //     <a href="https://nextra.site" target="_blank">
+  //       🎉 Tailwind-You 1.0 is released. Read more →
+  //     </a>
+  //   )
+  // },
   docsRepositoryBase: 'https://github.com/FotieMConstant/tailwind-you/tree/main/docs',
   footer: {
-    text: 'Nextra Docs Template',
+    text: 'Tailwind-you docs',
   },
 }
 

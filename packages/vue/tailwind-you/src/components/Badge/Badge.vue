@@ -1,10 +1,10 @@
 
 <template>
     <div v-if="size =='small'"
-    class="bg-red-100 text-red-700 w-2 h-2 rounded-full dark:bg-red-700 dark:text-white">
+    class="bg-error-40 w-2 h-2 rounded-full dark:bg-error-80 dark:text-error-20">
     </div>
     <span v-if="size =='large'"
-    class="bg-red-100 text-red-700 text-xs font-medium px-1 py-0.5 rounded-full dark:bg-red-700 dark:text-white">
+    class="bg-error-40 text-error-100 text-xs font-medium px-1 py-0.5 rounded-full dark:bg-error-80 dark:text-error-20">
       {{label}}
     </span>
   </template>
