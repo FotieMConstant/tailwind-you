@@ -1,4 +1,4 @@
-import TYBadge from "./Badge.vue"
+import UBadge from "./Badge.vue"
 
-export { TYBadge }
-export default TYBadge
+export { UBadge }
+export default UBadge

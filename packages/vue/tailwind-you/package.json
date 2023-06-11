@@ -1,10 +1,10 @@
 {
   "name": "@tailwind-you/vue",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.3",
   "type": "module",
-  "main": "dist/vue-components.cjs.js",
-  "module": "dist/vue-components.es.js",
+  "main": "dist/tailwind-you.cjs.js",
+  "module": "dist/tailwind-you.es.js",
   "files": [
     "dist"
   ],

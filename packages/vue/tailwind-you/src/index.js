@@ -1,17 +1,19 @@
 import * as components from './components'
 
-const defaultComponent = components?.default;
-const vueComponents = {
+const defaultComponents = components?.default;
+
+// component name and setup in entry file
+const tailwindYou = {
     install(Vue) {
-        Object.keys(defaultComponent).forEach(name =>{
-           Vue.components(name, defaultComponent[name]);
+        Object.keys(defaultComponents).forEach(name =>{
+           Vue.component(name, defaultComponents[name]);
             });  
     },
 }
-export default vueComponents;
+export default tailwindYou;
 
-export { TYBadge } from "./components/Badge";
-
-export { TYButton } from "./components/Button";
-export { TYCard } from "./components/Card";
-export { TYShape } from "./components/Shape";
+// exposing individual components for treeshaking
+export { UBadge } from "./components/Badge";
+export { UButton } from "./components/Button";
+export { UCard } from "./components/Card";
+export { UShape } from "./components/Shape";

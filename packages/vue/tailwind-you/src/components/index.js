@@ -1,7 +1,7 @@
-import { TYBadge } from "./Badge"
+import { UBadge } from "./Badge"
 
-import { TYButton } from "./Button"
-import { TYCard } from "./Card"
-import { TYShape } from "./Shape"
+import { UButton } from "./Button"
+import { UCard } from "./Card"
+import { UShape } from "./Shape"
 
-export default {TYBadge, TYButton, TYCard, TYShape}
+export default {UBadge, UButton, UCard, UShape}
