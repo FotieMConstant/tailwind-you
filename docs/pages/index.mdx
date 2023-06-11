@@ -20,18 +20,28 @@ To get started with tailwind-you and have it setup in your project is as simply 
 
 <Steps>
  
-### Setup
+### 🛠Setup (Vue ^3.x)
 Like we mentioned ealier, tailwind-you uses tailwind 3.x.x under the hood, hence this doesn't require you to install tailwind any longer.
  
 <Tabs items={['npm', 'yarn']}>
   <Tab>
     ```bash copy
-     npm install @tailwind-you/vue
+    npm install @tailwind-you/vue
     ```
   </Tab>
   <Tab>**Yarn** not available yet!.</Tab>
 </Tabs>
  
+### Import
+ ```js copy
+import tailwindYou from "@tailwind-you/vue"; // importing library
+import "@tailwind-you/vue/dist/index.css"; // importing styles
+ ```
+
+### Usage
+ ```html copy
+<u-badge size="large" label="32" />
+ ```
 ### Done✨
  
 That's it, no other action is required, follow the doc and browse the components you would like to use.
