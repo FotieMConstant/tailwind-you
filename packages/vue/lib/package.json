@@ -2,20 +2,26 @@
   "name": "@tailwind-you/vue",
   "private": false,
   "version": "0.0.1",
+  "main": "./dist/umd.js",
+  "module": "./dist/es.js",
+  "exports": {
+    ".":{
+      "import": "./dist/es.js",
+      "require": "./dist/umd.js"
+    },
+    "./dist/syle.css": "./dist/syle.css"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "vue": "^3.2.47"
-  },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
-    "vite": "^4.2.0"
+    "vite": "^4.2.0",
+    "vue": "^3.2.47"
   },
   "description": "@tailwind-you/vue: Tailwindcss and Material You design with the logic covered",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FotieMConstant/tailwind-you.git"

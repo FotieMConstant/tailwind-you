@@ -1,0 +1,40 @@
+{
+  "name": "@tailwind-you/vue",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/vue-components.cjs.js",
+  "module": "dist/vue-components.es.js",
+  "files":[
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && npm run build:styles",
+    "build:styles": "postcss src/tailwind.css -o dist/index.css",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.20",
+    "@storybook/addon-interactions": "^7.0.20",
+    "@storybook/addon-links": "^7.0.20",
+    "@storybook/blocks": "^7.0.20",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/vue3": "^7.0.20",
+    "@storybook/vue3-vite": "^7.0.20",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^10.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.20",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.47"
+  }
+}
