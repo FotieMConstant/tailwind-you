@@ -11,7 +11,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, "src/index.js"),
       formats: ["es", "cjs"],
-      fileName: (format) => `vue-components.${format}.js`
+      fileName: (format) => `tailwind-you.${format}.js`
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

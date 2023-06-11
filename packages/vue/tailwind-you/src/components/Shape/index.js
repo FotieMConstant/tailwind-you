@@ -1,4 +1,4 @@
-import TYShape from "./Shape.vue"
+import UShape from "./Shape.vue"
 
-export { TYShape }
-export default TYShape
+export { UShape }
+export default UShape
