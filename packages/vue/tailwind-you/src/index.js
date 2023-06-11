@@ -10,6 +10,8 @@ const vueComponents = {
 }
 export default vueComponents;
 
-export { SButton } from "./components/Button";
-export { SCard } from "./components/Card";
-export { SShape } from "./components/Shape";
+export { TYBadge } from "./components/Badge";
+
+export { TYButton } from "./components/Button";
+export { TYCard } from "./components/Card";
+export { TYShape } from "./components/Shape";

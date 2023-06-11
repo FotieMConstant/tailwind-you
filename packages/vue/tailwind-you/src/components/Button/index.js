@@ -1,4 +1,4 @@
-import SButton from "./Button.vue"
+import TYButton from "./Button.vue"
 
-export { SButton }
-export default SButton
+export { TYButton }
+export default TYButton

@@ -1,5 +1,7 @@
-import { SButton } from "./Button"
-import { SCard } from "./Card"
-import { SShape } from "./Shape"
+import { TYBadge } from "./Badge"
 
-export default {SButton, SCard, SShape}
+import { TYButton } from "./Button"
+import { TYCard } from "./Card"
+import { TYShape } from "./Shape"
+
+export default {TYBadge, TYButton, TYCard, TYShape}

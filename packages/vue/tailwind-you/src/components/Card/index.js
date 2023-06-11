@@ -1,4 +1,4 @@
-import SCard from "./Card.vue"
+import TYCard from "./Card.vue"
 
-export { SCard }
-export default SCard
+export { TYCard }
+export default TYCard
