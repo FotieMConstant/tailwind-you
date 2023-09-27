@@ -1,3 +1,99 @@
-# Advanced
+# Sample test, this is code gotten from gpt
 
-This is the index page for the Advanced folder!
+Certainly! Here's a simple documentation section for the provided endpoint:
+
+---
+
+## Get Multiple Quotes by Known Authors
+
+### Endpoint
+
+- **URL**: `/v1/quote/filter/known/:count`
+
+### Description
+
+This endpoint allows you to retrieve multiple quotes by known authors. You can specify the number of quotes to retrieve by providing the `count` parameter in the URL.
+
+### Request
+
+- **Method**: GET
+
+#### Parameters
+
+- `count` (required): The number of quotes to retrieve. It should be a positive integer.
+
+### Example Request
+
+```http
+GET /v1/quote/filter/known/5
+```
+
+### Response
+
+#### Success Response (200 OK)
+
+- **Content-Type**: application/json
+
+```json
+{
+  "quotes": [
+    {
+      "author": "Author Name",
+      "text": "Quote text 1"
+    },
+    {
+      "author": "Author Name",
+      "text": "Quote text 2"
+    },
+    // Additional quotes...
+  ]
+}
+```
+
+#### Error Response
+
+- **Content-Type**: application/json
+
+```json
+{
+  "error": "Invalid parameter value for 'count'. 'count' must be a positive integer."
+}
+```
+
+### Example Usage
+
+**JavaScript (fetch):**
+
+```javascript
+fetch("/v1/quote/filter/known/3")
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+    return response.json();
+  })
+  .then((data) => {
+    // Handle the retrieved quotes here
+  })
+  .catch((error) => {
+    console.error("Error:", error);
+  });
+```
+
+**cURL:**
+
+```bash
+curl -X GET "https://your-api-domain.com/v1/quote/filter/known/3"
+```
+
+### Notes
+
+- Replace `:count` in the URL with the desired number of quotes to retrieve.
+- Ensure that the `count` parameter is a positive integer; otherwise, you will receive an error response.
+- The response will contain an array of quotes, each with an `author` and `text` property.
+
+---
+
+This documentation section provides information on how to use the endpoint, what parameters to include in the request, example requests and responses, and code snippets for making requests in JavaScript and using cURL. Developers can refer to this documentation to understand how to interact with the API endpoint effectively.
+
+
